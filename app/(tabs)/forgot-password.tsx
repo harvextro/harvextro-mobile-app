@@ -51,7 +51,7 @@ export default function ForgotPassword() {
           onPress={() => router.back()}
           style={styles.signInLink}
         >
-          <Text style={styles.signInText}>Back to sign in</Text>
+          <Text style={styles.signInText}> sign in</Text>
         </TouchableOpacity>
 
         {/* 5. Send Button -> Links to Verification */}
