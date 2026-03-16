@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     alignItems: "center",
-    padding: 20,
+    padding: 21,
     paddingTop: 60, // Space for the floating back button
   },
   backButtonCircle: {
