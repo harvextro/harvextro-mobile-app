@@ -1,20 +1,11 @@
 {
   "expo": {
-<<<<<<< HEAD
-    "name": "MyApp",
-    "slug": "MyApp",
+    "name": "Harvextro",
+    "slug": "Harvextro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-=======
-    "name": "my-new-app",
-    "slug": "my-new-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "mynewapp",
->>>>>>> 5b90ce21fc5875f4e9fd64f103faebaadd4c5837
+    "scheme": "harvextro",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -28,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.harvextroApp.Harvextro"
     },
     "web": {
       "output": "static",
@@ -47,12 +39,8 @@
             "backgroundColor": "#000000"
           }
         }
-<<<<<<< HEAD
       ],
       "expo-font"
-=======
-      ]
->>>>>>> 5b90ce21fc5875f4e9fd64f103faebaadd4c5837
     ],
     "experiments": {
       "typedRoutes": true,
