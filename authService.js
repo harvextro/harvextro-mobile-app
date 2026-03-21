@@ -14,3 +14,8 @@ export const registerUser = (email, password) => {
 export const loginUser = (email, password) => {
   return signInWithEmailAndPassword(auth, email, password);
 };
+
+const provider = new GoogleAuthProvider();
+export const loginWithGoogle = () => {
+  return signInWithPopup(auth, provider);
+};
